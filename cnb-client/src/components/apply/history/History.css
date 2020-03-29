@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.header h3{
+    font-size: 20px !important;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.header input{
+    width: 40% !important;
+    float: right !important;
+}
+th.col,
+td.col{
+    text-align: center !important;
+}
+
+.list-container {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.list-line {
+    height: 40px;
+    line-height: 40px;
+}
+
+.list-head {
+    display: inline-block;
+    width: 100px;
+    text-align-last: justify;
+}
+
+.list-img {
+    max-width: 500px;
+    width: 450 px;
+    margin-top: 10px;
+    border: 1.5px solid rgba(0, 15, 29, 0.4);
+    border-radius: 3px;
+}
+
+.list-title {
+    font-weight: 600;
+}
+
+.list-layout {
+    display: flex;
+}
+
+.deal {
+    margin-top: 20px;
+}

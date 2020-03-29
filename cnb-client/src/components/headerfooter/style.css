@@ -1,0 +1,56 @@
+.ant-layout-header {
+    background-color: rgba(0, 15, 29, 0.4);
+}
+
+.ant-menu {
+    background-color: rgba(0, 15, 29, 0);
+}
+
+.logo {
+    width: 30px;
+    height: 31px;
+    background-image: url('../../image/logo.png');
+    background-size: cover;
+    margin: 16px 16px 16px 0;
+    float: left;
+}
+
+.title {
+    color: white;
+    font-family: "Arial Black";
+    font-size: 1.5rem;
+    float: left;
+}
+
+.menu {
+    margin-top: 10px;
+    float: right;
+}
+
+.button {
+    float: right;
+}
+
+.foot {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.foot span {
+    margin-left: 10px;
+    color: #aaaaaa;
+}
+
+.header-user {
+    float: right;
+    padding: 0 12px;
+    height: 100%;
+    cursor: pointer;
+    transition: color 0.3s;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.header-user:hover {
+    color: #fff;
+}
